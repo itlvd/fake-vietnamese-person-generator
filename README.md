@@ -1,5 +1,5 @@
 # Fake Vietnamese Person Generator
-This is a tool that generated information about Vietnamese. Address correctly to Ward. This is a project in OOP C++ class. 
+This is a tool that generated information about Vietnamese. Address correctly to Ward.
 
 This is a project of OOP class - 2019.
 
