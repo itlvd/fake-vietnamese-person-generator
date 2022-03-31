@@ -10,4 +10,7 @@
 @mail.com
 @zoho.com
 @yahoo.com.us
-@hcmus.edu.vn
+@fb.com
+@googlemail.com
+@protonmail.com
+@pm.me
