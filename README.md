@@ -3,7 +3,7 @@ This is a tool that generated information about Vietnamese. Address correctly to
 
 This is a project of OOP class - 2019.
 
-## Testing
+## Demo
 
 https://replit.com/@itlvd/fake-vietnamese-person-generator
 
