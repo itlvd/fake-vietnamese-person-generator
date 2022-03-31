@@ -132,21 +132,21 @@ void Birthday::next(){
     time_t info = time(NULL);
     tm* now = localtime(&info);
     setYear(now -> tm_year + 1900 - _age);
-    int month = rng.roll(12); // random tu thang 1 -> 12
+    int month = rng.roll(1,12); // random tu thang 1 -> 12
     setMonth(month);
     if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12){
-        setDay(rng.roll(31));
+        setDay(rng.roll(1,31));
     }
     else if(month == 2){
         if(isLeapYear(getYear())){// kiem tra nam co phai nam nhuan hay khong
-            setDay(rng.roll(29));
+            setDay(rng.roll(1,29));
         }
         else {
-            setDay(rng.roll(28));
+            setDay(rng.roll(1,28));
         }
     }
     else if(month == 4 || month == 6 || month == 9 || month == 11){
-        setDay(rng.roll(30));
+        setDay(rng.roll(1,30));
     }
 }
 
